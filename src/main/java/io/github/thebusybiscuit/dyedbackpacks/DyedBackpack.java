@@ -29,7 +29,7 @@ public class DyedBackpack extends SlimefunBackpack {
     public DyedBackpack(int size, ItemGroup itemGroup, SlimefunItemStack item, SlimefunItemStack backpack, BackpackColor color) {
         super(size, itemGroup, item, RecipeType.ENHANCED_CRAFTING_TABLE, createRecipe(backpack, color));
 
-        Validate.notNull(color, "Dyed Backpack colors cannot be null!");
+        Validate.notNull(color, "彩色背包颜色不能为空!");
         this.color = color;
     }
 
