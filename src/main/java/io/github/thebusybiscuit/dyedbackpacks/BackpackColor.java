@@ -25,7 +25,7 @@ public enum BackpackColor {
     MAGENTA(ChatColor.LIGHT_PURPLE + "品红色", Material.MAGENTA_WOOL, "36575fcccadae87c0842f53de5e0ffa75851696866d81e1b72828348db5256"),
     LIGHT_BLUE(ChatColor.AQUA + "浅蓝色", Material.LIGHT_BLUE_WOOL, "a3c153c391c34e2d328a60839e683a9f82ad3048299d8bc6a39e6f915cc5a"),
     YELLOW(ChatColor.YELLOW + "黄色", Material.YELLOW_WOOL, "a254aacbf623175ff98df7ae366e0b89e91713441752f3cdf965f038b174b5"),
-    LIME(ChatColor.GREEN + "酸橙色", Material.LIME_WOOL, "a9909a9779b946b9787442fa483af4de4b2f19fd40dc2370f7a9b8f521f21ddc"),
+    LIME(ChatColor.GREEN + "浅绿色", Material.LIME_WOOL, "a9909a9779b946b9787442fa483af4de4b2f19fd40dc2370f7a9b8f521f21ddc"),
     PINK(ChatColor.LIGHT_PURPLE + "粉色", Material.PINK_WOOL, "bddafdcb1a8df426229d7879b1e4a336fc9ab3bdc146bb4ed3be4bbf7b5b835"),
     DARK_GRAY(ChatColor.DARK_GRAY + "深灰色", Material.GRAY_WOOL, "6536ad978e1ce5050f43b7a6b3859eb49406b4f1043802a711cdc80c090c35d"),
     LIGHT_GRAY(ChatColor.GRAY + "浅灰色", Material.LIGHT_GRAY_WOOL, "5a5fc7635296ca183fd30b0fb5f4c18cfc216768f0fbebb865e0211ab43b7b"),
