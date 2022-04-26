@@ -7,7 +7,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;
 
-/**
+/** 
  * This enum holds the different colors of a {@link DyedBackpack}.
  * It is similar to the {@link DyeColor} enum, as this is based off of the different colors
  * of wool.
