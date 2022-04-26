@@ -36,6 +36,8 @@ public enum BackpackColor {
     GREEN(ChatColor.DARK_GREEN + "绿色", Material.GREEN_WOOL, "28a127f1cfd79986e7bd95d92de4f4f68040e4f899f81b1f8f3ca15b64f50f3"),
     RED(ChatColor.DARK_RED + "红色", Material.RED_WOOL, "85e4f9da68c81fa481eecdca48a138cecde2cddffeeae84ab1afd24a363e028"),
     BLACK(ChatColor.DARK_GRAY + "黑色", Material.BLACK_WOOL, "a9ab1fdcbe878d1e55bdd43cebc5e43836a6da69541f4a233fe88f1305668");
+    CAMOFLAGE(ChatColor.DARK_GREEN + "迷彩", Material.ACACIA_LEAVES, "f8c15aa792ec91fc2daf57dbf27f37a886538541a180af88b1415ee37d12a7");
+
 
     private final String name;
     private final Material wool;
