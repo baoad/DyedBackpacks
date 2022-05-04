@@ -7,7 +7,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;
 
-/**
+/** 
  * This enum holds the different colors of a {@link DyedBackpack}.
  * It is similar to the {@link DyeColor} enum, as this is based off of the different colors
  * of wool.
@@ -35,7 +35,10 @@ public enum BackpackColor {
     BROWN(ChatColor.GOLD + "棕色", Material.BROWN_WOOL, "efb6a3d7dba97bb6e7f79a15627aec6369791233f833fa749ef21bed79e59e98"),
     GREEN(ChatColor.DARK_GREEN + "绿色", Material.GREEN_WOOL, "28a127f1cfd79986e7bd95d92de4f4f68040e4f899f81b1f8f3ca15b64f50f3"),
     RED(ChatColor.DARK_RED + "红色", Material.RED_WOOL, "85e4f9da68c81fa481eecdca48a138cecde2cddffeeae84ab1afd24a363e028"),
-    BLACK(ChatColor.DARK_GRAY + "黑色", Material.BLACK_WOOL, "a9ab1fdcbe878d1e55bdd43cebc5e43836a6da69541f4a233fe88f1305668");
+    BLACK(ChatColor.DARK_GRAY + "黑色", Material.BLACK_WOOL, "a9ab1fdcbe878d1e55bdd43cebc5e43836a6da69541f4a233fe88f1305668"),
+    CAMOFLAGE(ChatColor.DARK_GREEN + "迷彩", Material.ACACIA_LEAVES, "f8c15aa792ec91fc2daf57dbf27f37a886538541a180af88b1415ee37d12a7"),
+    MODERN(ChatColor.LIGHT_PURPLE + "摩登", Material.REDSTONE, "d087c65d7bde665b6e195e8dcfc21f4addcf92a907140c37d474c12accf7ab");
+
 
     private final String name;
     private final Material wool;
